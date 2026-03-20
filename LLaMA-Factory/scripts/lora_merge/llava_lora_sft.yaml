@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: models/llava-hf/llava-1.5-7b-hf
+adapter_name_or_path: work_dirs/llava1.5_7b_OpenCOLE_TextLayout_lora_2026-01-28/checkpoint-6400
+template: llava
+trust_remote_code: true
+
+### export
+export_dir: work_dirs/llava1.5_7b_OpenCOLE_TextLayout_lora_2026-01-28/checkpoint-6400/lora_merged
+export_size: 5
+export_device: cpu
+export_legacy_format: false
