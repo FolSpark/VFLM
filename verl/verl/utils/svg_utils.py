@@ -106,9 +106,6 @@ def unformat_svg(svg_code):
     return xml_content
 
 def export_svg_to_img(svg_code: str, image: Image.Image, image_name: str = "background-image.png") -> Image.Image:
-    # svg_code = open(svg_path, 'r').read()
-    # svg_code = unformat_svg(svg_path)
-    svg_code = svg_code.replace("font-style=\"italic\"", "").replace("font-style=\"oblique\"", "")
     try:
         svg_code = unformat_svg(svg_code)
     except Exception as e:
