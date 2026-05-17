@@ -177,8 +177,8 @@ class AgentSFTDataset(Dataset):
 
 if __name__ == "__main__":
     dataset = AgentSFTDataset(
-        parquet_files='/mnt/yscfs/xubenfeng/ys_agent_dev/thinkingagent/data/version/thinkingagent_v01_0221.jsonl',
-        tokenizer='/mnt/yscfs/zhangshengzhuo/model/Qwen2.5-72B/',
+        parquet_files='thinkingagent/data/version/thinkingagent_v01_0221.jsonl',
+        tokenizer='model/Qwen2.5-72B/',
         config=OmegaConf.create({
             'max_length': 128*1024,
             'truncation': 'error',
