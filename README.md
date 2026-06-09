@@ -7,6 +7,7 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.22187-b31b1b.svg)](https://arxiv.org/abs/2603.22187)
+[![CVPR](https://img.shields.io/badge/CVPR-2026-blue.svg)](https://openaccess.thecvf.com/content/CVPR2026/html/Guo_Seeing_is_Improving_Visual_Feedback_for_Iterative_Text_Layout_Refinement_CVPR_2026_paper.html)
 [![GitHub](https://img.shields.io/badge/💻%20GitHub-Code-green)](https://github.com/FolSpark/VFLM)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Models-yellow)](https://huggingface.co/collections/FolSpark/vflm)
 
@@ -146,10 +147,12 @@ python rm_server_manager_ocr.py
 ## Citation
 
 ```bibtex
-@article{guo2026seeing,
-  title={Seeing is Improving: Visual Feedback for Iterative Text Layout Refinement},
-  author={Guo, Junrong and Fang, Shancheng and Qu, Yadong and Xie, Hongtao},
-  journal={arXiv preprint arXiv:2603.22187},
-  year={2026}
+@InProceedings{Guo_2026_CVPR,
+    author    = {Guo, Junrong and Fang, Shancheng and Qu, Yadong and Xie, Hongtao},
+    title     = {Seeing is Improving: Visual Feedback for Iterative Text Layout Refinement},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {25893-25903}
 }
 ```
